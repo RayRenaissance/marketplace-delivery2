@@ -24,4 +24,4 @@ Open `marketplace_delivery_sla.ipynb` in Jupyter or Google Colab (there's a badg
 
 ## Notes
 
-- The raw CSV has some data quality issues by design (inconsistent casing in `courier`/`order_status`, duplicate rows, negative `promised_days`) — part of the exercise is handling these during cleaning.
+- The raw CSV has total of 10 row and 13 column data and column (delivered_at) has one NaT value which does not needs to be handled as code itself handles the cleaning
